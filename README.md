@@ -28,15 +28,28 @@ Patients can log their daily medication with proof photos, while caretakers can 
 
 ## 📸 Screenshots
 
-| Patient Dashboard | Calendar View | Medication Log |
-| ----------------- | ------------- | -------------- |
-|  | ![Screenshot 2](link-to-screenshot2) | ![Screenshot 3](link-to-screenshot3) |
+| Login Page |
+
+<img src = "https://res.cloudinary.com/diejm0elz/image/upload/v1752254371/Bildschirmfoto_2025-07-11_um_22.46.41_dk8h00.png" width= 400 />
+
+| Home Page |
+
+<img src = "https://res.cloudinary.com/diejm0elz/image/upload/v1752254372/Bildschirmfoto_2025-07-11_um_22.47.26_mgh2sp.png" width= 400 />
+
+| Patient Dashboard |
+
+<img src = "https://res.cloudinary.com/diejm0elz/image/upload/v1752254371/Bildschirmfoto_2025-07-11_um_22.48.30_b1uukp.png" width= 400 />
+
+| Mark as Taken Dashboard |
+
+<img src = "https://res.cloudinary.com/diejm0elz/image/upload/v1752254371/Bildschirmfoto_2025-07-11_um_22.48.54_digyxv.png" width= 400 />
+
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [View Live](https://your-app-demo-link.com)  
+👉 [View Live](https://med-track-arun.netlify.app)  
 
 
 ---
