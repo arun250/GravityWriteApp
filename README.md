@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+# 💊 Medication Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Medication Tracker built with **React**, **Supabase**, **TailwindCSS**, and **Vite**.  
+Patients can log their daily medication with proof photos, while caretakers can track adherence in real-time through a calendar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User Authentication (Supabase)
+- 📅 Calendar View with Medication Status
+- 📸 Upload Proof Photo of Medication Taken
+- 🟢 Real-time Green Tick for Completed Days
+- ❌ Past Missed Days Marked Automatically
+- 🔐 Protected Routes
+- 📊 Medication Summary with Adherence %
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- React + TypeScript
+- Supabase (Database + Auth + Storage)
+- TailwindCSS
+- Vite
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📸 Screenshots
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Patient Dashboard | Calendar View | Medication Log |
+| ----------------- | ------------- | -------------- |
+|  | ![Screenshot 2](link-to-screenshot2) | ![Screenshot 3](link-to-screenshot3) |
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🔗 Live Demo
+
+👉 [View Live](https://your-app-demo-link.com)  
+
+
+---
+
+## 📝 Getting Started
+
+### - Clone the Repository
+      git clone https://github.com/your-username/medication-tracker.git
+      cd meddy-track-app
+### - Install Dependencies
+      npm install
+### - Add Supabase Keys
+### - Create a .env file in the root:
+    VITE_SUPABASE_URL=your-supabase-url
+    VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+### - Run the App
+    npm run dev
