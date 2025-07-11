@@ -62,7 +62,7 @@ Patients can log their daily medication with proof photos, while caretakers can 
 ### - Install Dependencies
       npm install
 ### - Add Supabase Keys
-### - Create a .env file in the root:
+
     VITE_SUPABASE_URL=your-supabase-url
     VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
 ### - Run the App
